@@ -1,5 +1,7 @@
 This project is telegram bot with AI, which is developed using LangChain and Streamlit.
 
+Streamlit and telegram bot work independently, using threading.
+
 Functions of the bot:
 - Answering the questions using Ollama;
 - Streamlit for the UI;
