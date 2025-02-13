@@ -205,7 +205,6 @@ def process_messages():
         logging.info("🛑 Bot process stopped.")
 
 def process_uploaded_file(uploaded_file, chat_id):
-    """Обрабатывает загруженный файл (PDF или TXT) и сохраняет его содержимое."""
     if uploaded_file is not None:
         file_extension = os.path.splitext(uploaded_file.name)[1].lower()
 
