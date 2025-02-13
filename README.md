@@ -7,6 +7,6 @@ Functions of the bot:
 
 How to run this bot?
 Write in terminal:
-streamlit run <path to your file>
+streamlit run path to your file
 Or if it is not working:
-python -m streamlit run <path to your file>
+python -m streamlit run path to your file
